@@ -1,0 +1,9 @@
+@import "./rootVariables";
+
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
+
+@import "./commonCustom";
+
+@import "./OpenAi/openai-header";
+@import "./OpenAi/Generate-image";
+@import "./OpenAi/text-completion";

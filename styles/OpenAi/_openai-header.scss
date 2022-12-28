@@ -1,0 +1,17 @@
+.openai-header {
+  height: var(--header-height);
+  background-color: var(--my-bg-color-sc);
+  z-index: 50;
+  .openai-svg-logo {
+    cursor: pointer;
+    fill: currentColor;
+    height: 1.5rem;
+    width: auto;
+
+    // stroke: var(--my-color);
+    // & path {
+    //   fill: green;
+    //   stroke: var(--my-color);
+    // }
+  }
+}
